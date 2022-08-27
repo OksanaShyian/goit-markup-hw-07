@@ -2,7 +2,7 @@ body {
 	position: relative;
 	font-family: "Roboto", sans-serif;
 	background-color: #fff;
-	color: var(--primary-text-color);
+	color: $text;
 	max-width: 1600px;
 }
 img {
@@ -21,7 +21,7 @@ img {
 	cursor: pointer;
 	&:hover,
 	&:focus {
-		color: var(--accent-text-color);
+		color: $blue;
 	}
 }
 .conteiner {

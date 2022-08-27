@@ -1,5 +1,5 @@
 .footer {
-	background-color: var(--accent-color);
+	background-color: $accent;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	max-width: 1600px;
@@ -8,7 +8,7 @@
 }
 
 .adress-link {
-	color: var(--primary-white-color);
+	color: $white;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -52,7 +52,7 @@
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--primary-white-color);
+	color: $white;
 	margin-top: 0;
 	margin-bottom: 20px;
 }
@@ -68,13 +68,13 @@
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	&:hover {
-		background-color: var(--accent-text-color);
+		background-color: $blue;
 	}
 }
 .footer-soc-icon {
-	fill: var(--primary-white-color);
+	fill: $white;
 	.footer-soc-link:hover & {
-		fill: var(--primary-white-color);
+		fill: $white;
 	}
 }
 .footer-subscription {
@@ -91,7 +91,7 @@
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--primary-white-color);
+	color: $white;
 	margin-top: 0;
 	margin-bottom: 20px;
 }
@@ -105,7 +105,7 @@
 	margin-right: 12px;
 	font-weight: 400;
 	background-color: transparent;
-	color: var(--primary-white-color);
+	color: $white;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	&::placeholder {
 		font-size: 16px;

@@ -22,7 +22,7 @@
 	transition: transform 500ms linear;
 	width: 528px;
 	height: 581px;
-	background-color: var(--primary-white-color);
+	background-color: $white;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	padding: 40px;
@@ -38,7 +38,7 @@
 	line-height: 1.15;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--primary-text-color);
+	color: $text;
 	margin: 0;
 	margin-bottom: 12px;
 }
@@ -56,11 +56,11 @@
 	font-size: 12px;
 	line-height: 1.17;
 	letter-spacing: 0.01em;
-	color: var(--title-text-color);
+	color: $title;
 	cursor: pointer;
 	&:focus + .form-input {
-		color: var(--accent-text-color);
-		border: var(--accent-text-color);
+		color: $blue;
+		border: $blue;
 	}
 }
 .input-wrap {
@@ -76,10 +76,10 @@
 	border-radius: 4px;
 	cursor: pointer;
 	&:focus {
-		outline-color: var(--accent-text-color);
+		outline-color: $blue;
 	}
 	&:focus + .form-icon {
-		fill: var(--accent-text-color);
+		fill: $blue;
 	}
 }
 .form-icon {
@@ -99,7 +99,7 @@
 	padding: 12px 16px;
 	cursor: pointer;
 	&:focus {
-		outline-color: var(--accent-text-color);
+		outline-color: $blue;
 	}
 }
 .form-field-text textarea::placeholder {
@@ -123,7 +123,7 @@
 	& span {
 		width: 16px;
 		height: 15px;
-		border: 2px solid var(--primary-text-color);
+		border: 2px solid $text;
 		border-radius: 3px;
 		margin-right: 7px;
 		display: flex;
@@ -136,11 +136,11 @@
 	display: block;
 	transition: border-color 300ms linear;
 	&:checked + .policy-label span {
-		background-color: var(--accent-text-color);
-		border-color: var(--accent-text-color);
+		background-color: $blue;
+		border-color: $blue;
 	}
 	&:checked + .policy-label .span-icon {
-		fill: var(--primary-white-color);
+		fill: $white;
 		border: none;
 	}
 }
@@ -154,7 +154,7 @@
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: var(--accent-color);
+	color: $accent;
 	text-decoration-line: underline;
-	color: var(--accent-text-color);
+	color: $blue;
 }

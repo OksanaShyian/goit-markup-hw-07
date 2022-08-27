@@ -6,14 +6,14 @@
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	color: var(--accent-text-color);
+	color: $blue;
 }
 .logo__accent {
-	color: var(--primary-black-color);
+	color: $black;
 }
 
 .logo-footer {
 	display: inline-block;
 	margin-bottom: 20px;
-	color: var(--primary-white-color);
+	color: $white;
 }

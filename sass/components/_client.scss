@@ -1,7 +1,7 @@
 .client-title {
 	margin-top: 0;
 	margin-bottom: 50px;
-	color: var(--primary-text-color);
+	color: $text;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
@@ -29,10 +29,10 @@
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	&:hover {
-		border-color: var(--accent-text-color);
+		border-color: $blue;
 	}
 	&:hover .client-icon {
-		fill: var(--accent-text-color);
+		fill: $blue;
 	}
 }
 .client-icon {

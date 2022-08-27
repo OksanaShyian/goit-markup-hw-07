@@ -7,7 +7,7 @@
 	}
 }
 .about-list {
-	background-color: var(--primary-white-color);
+	background-color: $white;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
@@ -29,7 +29,7 @@
 	font-size: 18px;
 	line-height: 1.56;
 	letter-spacing: 0.03em;
-	color: var(--primary-white-color);
+	color: $white;
 	background: rgba(33, 150, 243, 0.9);
 	margin: 0;
 	padding: 63px 24px;
@@ -50,14 +50,14 @@
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
-	color: var(--primary-text-color);
+	color: $text;
 }
 .div-text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
-	color: var(--title-text-color);
+	color: $title;
 	margin-bottom: 0;
 }
 
