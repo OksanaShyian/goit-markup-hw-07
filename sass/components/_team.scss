@@ -3,7 +3,7 @@
 	max-width: 1600px;
 }
 
-.team-title {
+.team__title {
 	margin-top: 0;
 	margin-bottom: 50px;
 	font-weight: 700;
@@ -13,19 +13,19 @@
 	letter-spacing: 0.03em;
 	color: $text;
 }
-.team-list {
+.team__list {
 	display: flex;
-	& .team-item + .team-item {
+	& .team__item + .team__item {
 		margin-left: 30px;
 	}
 }
-.team-item {
+.team__item {
 	background-color: $white;
 	outline: 1px solid #eeeeee;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
-.team-name {
+.team__name {
 	padding-top: 30px;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -36,7 +36,7 @@
 	letter-spacing: 0.03em;
 	color: $text;
 }
-.team-text {
+.team__text {
 	margin-top: 0;
 	margin-bottom: 16px;
 	font-weight: 400;
@@ -53,7 +53,7 @@
 	gap: 10px;
 	padding-bottom: 30px;
 }
-.soc-link {
+.soc__link {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
@@ -73,7 +73,7 @@
 		fill: $white;
 	}
 }
-.soc-icon {
+.soc__icon {
 	fill: #afb1b8;
 	transition-property: fill;
 	transition-duration: 250ms;
